@@ -67,7 +67,7 @@ if (query = location.search.split("=")[1]){
 let container = document.querySelector('.container');
 container.innerHTML = `
         <div class="header">
-             <div class="headerArrow"><a href="/timeline.html">⇽</a></div>
+             <div class="headerArrow"><a href="./timeline.html">⇽</a></div>
              <div>
                 <h2 class="profile-name">${user.displayName} <img class="verifiedIcon" src="twitterVerified.jpg"></h2>
                 <p class="grey">13.6k Tweets</p>
